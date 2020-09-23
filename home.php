@@ -1,7 +1,8 @@
 <?php get_header(); ?>
- 	<h1>Le blog Capitaine WP</h1>
+ 	<h1>mon premier thème</h1>
 
 	<?php if( have_posts() ) : while( have_posts() ) : the_post(); ?>
+	<?php get_template_part( 'archive' ); ?>
   
 		<article class="post">
 			<h2><?php the_title(); ?></h2>

@@ -1,6 +1,6 @@
 @charset "UTF-8";
 /*
-Theme Name: mulctolore
+Theme Name: premier thème
 Theme URI: 
 Author: Aurore Limage
 Author URI: 
@@ -10,26 +10,20 @@ Version: 1.0
 */
 /*# sourceMappingURL=style.css.map */
 
+
+
 html{
     background: rgb(161,33,210);
-background: linear-gradient(90deg, rgba(161,33,210,0.9948354341736695) 0%, rgba(9,121,84,1) 35%, rgba(0,212,255,1) 100%);
+    background: linear-gradient(90deg, rgba(161,33,210,0.9948354341736695) 0%, rgba(9,121,84,1) 35%, rgba(0,212,255,1) 100%);
 }
 
 body{
-    width:70%;
-    margin:auto;
+    background:#fff;
+    width:80%;
+    margin:auto;border:1px solid black
 }
 
-.menu {
-    position: fixed;
-    top: 0px;
-    background:red;
-}
-
-.admin-bar .menu {
-	top: 32px; /* on prend en compte le décalage */
-}
-
-header img{
-    height:50px;
+header img{ 
+    width:500px; 
+    display:block;margin:auto;
 }
